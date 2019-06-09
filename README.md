@@ -18,7 +18,9 @@ To view, download or clone the project:
 
         http://localhost:8000 
 
-    Or you can change your port number in the dbhelper.js file and replace the port number where port is located http://localhost:port
+    Or you can change your port number in the dbhelper.js file and replace the port number where port is located 
+    
+        http://localhost:port
 
 # Resources & Tools Used
 
@@ -28,7 +30,6 @@ To view, download or clone the project:
 
 
 # Initial readme from starter code
----
 
 ## Mobile Web Specialist Certification Course
 
