@@ -1,10 +1,33 @@
 
 # Overview
 
-In this project, I converted a static webpage to a mobile-ready web application. The static design lacked accessibility and converted the design to be responsive on different sized displays and accessible for screen reader use. Also added a service worker to load the application offline experience for the users.
+In this project, A static webpage is converted to a mobile-ready web application. The static design lacked accessibility and converted the design to be responsive on different sized displays and accessible for screen reader use. Also added a service worker to load the application offline experience for the users.
 
-<!-- # Mobile Web Specialist Certification Course
+# How to run this app
+To view, download or clone the project:
+
+`$ git clone https://github.com/dimikara/Restaurant-Reviews-App-Stage-1.git`
+
+1. Navigate to the main project folder and run the following in your terminal:
+
+        Python2.x: python -m SimpleHTTPServer 8000
+
+        Python3.x: python3 -m http.server 8000
+
+2. Open a browser such as Chrome or FireFox to:
+
+        http://localhost:8000 or you can change your port number in the dbhelper.js file and replace the port number where port is located http://localhost:port
+
+# Resources & Tools Used
+
+* Starter code by [Udacity](https://github.com/udacity/mws-restaurant-stage-1).
+* Leafletjs, an open-source JavaScript library for mobile-friendly interactive maps, & Mapbox, an open source mapping platform for custom designed maps.
+
+# INITIAL README FROM STATER CODE
 ---
+
+## Mobile Web Specialist Certification Course
+
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
 ## Project Overview: Stage 1
@@ -17,7 +40,7 @@ You have been provided the code for a restaurant reviews website. The code has a
 
 ### Project Rubric
 
-Your project will be evaluated by a Udacity code reviewer according to the [Restaurant Reviews project rubric](https://review.udacity.com/#!/rubrics/1090/view). Please review for detailed project requirements. The rubric should be a resource you refer to periodically to make sure your project meets specifications.
+Your project will be evaluated by a Udacity code reviewer according to the [Restaurant Reviews project rubric](v). Please review for detailed project requirements. The rubric should be a resource you refer to periodically to make sure your project meets specifications.
 
 ### What do I do from here?
 
@@ -35,4 +58,4 @@ This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://w
 
 ### Note about ES6
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future-proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. -->
+Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future-proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
