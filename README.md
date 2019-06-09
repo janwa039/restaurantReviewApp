@@ -16,14 +16,18 @@ To view, download or clone the project:
 
 2. Open a browser such as Chrome or FireFox to:
 
-        http://localhost:8000 or you can change your port number in the dbhelper.js file and replace the port number where port is located http://localhost:port
+        http://localhost:8000 
+
+    Or you can change your port number in the dbhelper.js file and replace the port number where port is located http://localhost:port
 
 # Resources & Tools Used
 
 * Starter code by [Udacity](https://github.com/udacity/mws-restaurant-stage-1).
 * Leafletjs, an open-source JavaScript library for mobile-friendly interactive maps, & Mapbox, an open source mapping platform for custom designed maps.
 
-# INITIAL README FROM STATER CODE
+
+
+# Initial readme from starter code
 ---
 
 ## Mobile Web Specialist Certification Course
