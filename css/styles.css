@@ -30,8 +30,10 @@ a img{
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0 0 20px;
+  margin: 0 19px 20px;
 }
+
+
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,7 +63,7 @@ nav h1 {
 }
 nav h1 a {
   color: #fff;
-  font-size: 5vmin;
+  font-size: 1.2em;
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -110,10 +112,11 @@ nav h1 a {
   width: 100%;
   height: auto;
   background-color: rgb(48, 90, 119);
+  text-align: center;
 }
 .filter-options h2 {
   color: white;
-  font-size: 3vmin;
+  font-size: calc(1em + 3vmin);
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
@@ -185,7 +188,7 @@ nav h1 a {
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
-  font-size: 2.8vmin;
+  font-size: calc(0.5em + 2vmin);
   margin: 15px 0 0;
   padding: 10px 42px 10px;
   text-align: center;
@@ -287,41 +290,14 @@ nav h1 a {
   width: 100%;
 }
 
+#restaurants-list li h3 {
+  font-size: 1.7em
+}
 /* ====================== Media Queries ====================== */
-@media (max-width: 980px) {
-  #restaurants-list li h1 {
-    font-size: 2.8em;
-  }
-#restaurants-list p {
-  font-size: 3em;
-  padding: 0 30px;
-  margin-top: 16px
-
-}
-#restaurants-list li a {
-  font-size: 3em;
-}
-
-.filter-options{
-  text-align: center;
-}
-.filter-options select {
-  font-size: 1.6em;
-  height: 45px;
-  margin: 5px;
-  padding: -4px 19px;
-  width: 250px;
-}
-
-.filter-options h2 {
-  font-size: 2.5em;
-  margin: 0 20px;
-}
-}
 
 
 @media (min-width: 981px) {
-  #restaurants-list li {
+   #restaurants-list li {
     max-width: 400px;
   }
   #map {
@@ -329,7 +305,7 @@ nav h1 a {
   }
   filter-options h2 {
     font-size: 3vmin;
-}
+} 
 
   #restaurants-list li h1 {
     height: 41px;
@@ -373,27 +349,6 @@ nav h1 a {
     bottom: 0;
     position: absolute;
     width: 98%;
-  }
+  } 
 }
 
-
-@media (max-width: 978px) {
-  #restaurants-list li h1 {
-    font-size: 1.5em;
-}
-#restaurants-list p {
-  font-size: 1.5em;
-  padding: 0 30px;
-  margin-top: 16px
-
-}
-#restaurants-list li a {
-  font-size: 1.5em;
-}
-}
-
-@media (min-width: 1025px) {
-#reviews-list li {
-  max-width: 400px;
-}
-}
